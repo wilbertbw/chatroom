@@ -1,9 +1,15 @@
 .ChatHistory {
-  background-color: #f7f7f7;
+  background-color: #242424;
   margin: 0;
   padding: 20px;
 }
 .ChatHistory h2 {
   margin: 0;
   padding: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  .ChatHistory {
+    background-color: #f7f7f7;
+  }
 }
